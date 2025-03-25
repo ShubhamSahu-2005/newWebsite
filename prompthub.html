@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Shubham-PromptHub</title>
+  <link rel="stylesheet" href="src/styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600&family=Ramaraja&family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+  <style>
+    /* Bouncr specific styles */
+    .bouncr-underline {
+      text-decoration-color: #252387;
+    }
+
+    .work-page-header {
+      padding: 3rem;
+      display: flex;
+      flex-direction: column;
+      gap: 1rem;
+    }
+
+    .work-page-info-row {
+      padding: 1rem 3rem;
+      display: flex;
+      justify-content: flex-start;
+      gap: 2rem;
+      border-top: 1px solid var(--primary-text);
+      border-bottom: 1px solid var(--primary-text);
+    }
+
+    .work-page-overview {
+      padding: 3rem;
+    }
+
+    .work-page-skills-main {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      gap: 2rem;
+      padding: 0 3rem 3rem 3rem;
+    }
+
+    .work-page-skills-boxes {
+      margin-top: 1rem;
+    }
+
+    .internship-intro {
+      padding: 0 3rem;
+    }
+
+    .right-text {
+      margin-left: auto;
+      text-align: right;
+      max-width: 70%;
+    }
+
+    .bouncr-right {
+      border-right: 5px solid #252387;
+      padding-right: 1rem;
+    }
+
+    .work-page-section-title {
+      margin: 3rem 0 1.5rem 3rem;
+    }
+
+    .section-text {
+      padding: 0 3rem;
+      margin-bottom: 2rem;
+    }
+
+    .work-gallery {
+      width: 90%;
+      max-width: 800px;
+      margin: 2rem auto;
+      display: block;
+    }
+
+    #user-testing-bouncr ul {
+      list-style-type: disc;
+      padding-left: 1.5rem;
+    }
+
+    #user-testing-bouncr ul ul {
+      margin-top: 0.5rem;
+    }
+
+    .up-next-section {
+      margin-top: 3rem;
+    }
+
+    .up-next {
+      display: block;
+    }
+
+    .up-next-label-gradient {
+      background: linear-gradient(to right, #ff5470, #ff9776);
+      padding: 2px;
+      border-radius: 5px 5px 0 0;
+      width: fit-content;
+    }
+
+    .up-next-label {
+      background-color: var(--primary-bg);
+      border-radius: 3px 3px 0 0;
+      padding: 0.5rem 1rem;
+    }
+
+    .up-next-text {
+      font-size: 1rem;
+      font-family: 'IBM Plex Mono', monospace;
+    }
+
+    .up-next-card-gradient {
+      background: linear-gradient(to right, #ff5470, #ff9776);
+      padding: 5px;
+      border-radius: 0 5px 5px 5px;
+      width: 100%;
+      max-width: 500px;
+    }
+
+    .up-next-card {
+      background-color: var(--primary-bg);
+      border-radius: 0 3px 3px 3px;
+      padding: 1.5rem;
+    }
+
+    .up-next-title {
+      margin-bottom: 0.5rem;
+    }
+
+    .mobile {
+      border-radius: 10px;
+    }
+
+    @media (max-width: 768px) {
+      .work-page-info-row {
+        flex-direction: column;
+        gap: 0.5rem;
+      }
+
+      .right-text {
+        max-width: 100%;
+        text-align: left;
+        margin-left: 0;
+      }
+
+      .bouncr-right {
+        border-right: none;
+        border-left: 5px solid #252387;
+        padding-right: 0;
+        padding-left: 1rem;
+      }
+
+      .work-page-section-title {
+        margin-left: 1.5rem;
+      }
+
+      .section-text {
+        padding: 0 1.5rem;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header id="topbar">
+    <h1 id="nameplate"><a href="index.html">shubham sahu</a></h1>
+    <nav id="navbar">
+      <ul>
+        <li><h2><a href="index.html#work-section">work</a></h2></li>
+        <li><h2><a href="index.html#skills-section">skills</a></h2></li>
+        <li><h2><a href="index.html#about-section">about</a></h2></li>
+        <li><h2><a href="https://drive.google.com/file/d/1rgH0cgPz9K3GOrz_q9w07-3GovXLzkBU/view" download="resume" target="_blank">resume</a></h2></li>
+      </ul>
+    </nav>
+  </header>
+  <main class="work-page-content">
+    <div data-scroll="in" class="work-page-header">
+      <h1 class="work-page-header-title">PromptHub</h1>
+      <h3 class="up-next-role"> Open Source CRUD Application </h3>
+    </div>
+    <div data-scroll="in" class="work-page-info-row skills-grey-boxes">
+      <h4><strong>DURATION: </strong>October 2024- November 2024</h4>
+      <h4><strong>PLATFORM: </strong>Web</h4>
+      <h4><a href ="https://github.com/ShubhamSahu-2005/prompthub"><strong>Github: </strong> click on github to see the repository</h4></div></a>
+    </div>
+    <div data-scroll="in" class="work-page-overview">
+      <h4 class="work-page-overview-content">
+        PromptHub is a dynamic platform designed to streamline and enhance the use of AI prompts. Whether you're a developer, researcher, or AI enthusiast, PromptHub provides a centralized space to discover, create, and share high-quality prompts for various AI models. With an intuitive interface and a growing collection of curated prompts, it empowers users to maximize the potential of AI tools effortlessly. 🚀
+      </h4>
+    </div>
+    <div class="work-page-skills-main">
+      <div data-scroll="in" class="work-page-skills">
+        <h2>Methods</h2>
+        <div class="skills-grey-boxes work-page-skills-boxes">
+        
+          <h4>API Design</h4>
+          <h4>Full-Stack Development</h4>
+          <h4>User Testing</h4>
+          <h4>CRUD</h4>
+        
+          <h4>Wireframing</h4>
+          
+        </div>
+      </div>
+      <div data-scroll="in" class="work-page-skills">
+        <h2>Tools</h2>
+        <div class="skills-grey-boxes work-page-skills-boxes">
+          <h4>Next.js</h4>
+          <h4>MongoDB</h4>
+          <h4>Tailwind</h4>
+          <h4>Vercel</h4>
+          <h4>Next 0Auth</h4>
+         
+          <h4>Github</h4>
+        </div>
+      </div>
+    </div>
+          <h4 class="section-text bouncr-right right-text">
+       
+      </h4>
+    </div>
+    <div>
+      <h2 class="work-page-section-title underline bouncr-underline">Screen Shot and Deployed Link </h2>
+      <h4 class="section-text bouncr-right right-text">
+       
+      </h4>
+      <a href="https://prompthub18.vercel.app/"><img class="work-gallery mobile" src="https://res.cloudinary.com/ddrmjmjv9/image/upload/v1742924864/Screenshot_2025-03-25_231511_ouoqgq.png"></a>
+    </div>
+  </main>
+  <footer data-scroll="out" class="up-next-section">
+    <a class="up-next" href="barbara.html">
+      <div class="up-next-label-gradient figmalite-gradient">
+        <div class="up-next-label">
+          <h2 class="up-next-text">up next</h2>
+        </div>
+      </div>
+      <div class="up-next-card-gradient figmalite-gradient">
+        <div class="up-next-card">
+          <h1 class="up-next-title">Barbara</h1>
+          <h3 class="up-next-role">Video Confrencing Web App</h3>
+        </div>
+      </div>
+    </a>
+  </footer>
+
+  <script src="src/script.js"></script>
+</body>
+</html>
